@@ -1,7 +1,9 @@
+import MarkDown from './features/markdown';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hi world!</h1>
+    <div className="App container-fluid">
+      <MarkDown />
     </div>
   );
 }
